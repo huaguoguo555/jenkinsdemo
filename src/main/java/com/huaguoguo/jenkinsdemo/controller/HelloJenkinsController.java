@@ -9,6 +9,6 @@ public class HelloJenkinsController {
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
     public Object hello(){
-        return "hello jenkins 2:19";
+        return "hello jenkins 2:21";
     }
 }
