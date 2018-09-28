@@ -18,7 +18,7 @@ public class HelloJenkinsController {
     public Object hello(){
         String format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
         logger.info(format);
-        return "hello jenkins aaa002";
+        return "hello jenkins aaa003";
     }
 
 }
