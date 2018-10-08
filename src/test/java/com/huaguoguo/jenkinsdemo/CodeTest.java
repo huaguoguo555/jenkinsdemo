@@ -11,4 +11,9 @@ public class CodeTest {
         String format = MessageFormat.format("123{0}", "456");
         System.out.println(format);
     }
+
+    @Test
+    public void test2(){
+
+    }
 }
