@@ -33,7 +33,7 @@ public class HelloJenkinsController {
             logger.info(entry.getKey() + " >>> " + Arrays.toString(entry.getValue()));
         }
         logger.info("========end========");
-        return "hello jenkins aaa003";
+        return "null";
     }
 
 }
